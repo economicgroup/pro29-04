@@ -1,0 +1,63 @@
+h1 { 
+    font-family: 'PlayfairDisplay';
+    font-size: 40px;
+    font-weight: 600;
+}
+h2 { 
+    font-family: 'PlayfairDisplay';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 { 
+    font-family: 'PlayfairDisplay';
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Cruinn';
+    font-size: 20px;
+    font-weight: 300
+}
+
+.scroll-up {
+    position: fixed;
+    right: 50px;
+    bottom: -70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+    background-color: #4eebb6;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    border-radius: 5px;
+    border: none;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    z-index: 1;
+
+    cursor: pointer;
+
+    transition: background-color 0.4s, bottom 0.4s linear, opacity 0.4s, visibility 0.4s;
+}
+
+.scroll-up:hover,
+.scroll-up:focus {
+    background-color: rgba(253, 177, 0, 0.8);
+}
+
+.scroll-up--show {
+    bottom: 115px;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}

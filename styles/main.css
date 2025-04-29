@@ -1,0 +1,169 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 140px;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #136435;
+    border: 1px solid #487e70;
+    border-radius: 16px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(164, 230, 202);
+}
+
+.button--accent {
+    color: #487e70;
+
+    background-color: #f8f8f8;
+}
+
+.section__title {
+    font-family: 'PlayfairDisplay', serif;
+    color: #012018;
+    font-size: 35px;
+    text-align: center;
+}
+
+.promo {
+    padding: 0 50px;
+}
+
+.section__discription {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.form__field {
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid rgba(20, 20, 20, 0.4);
+    border-radius: 16px;
+}
+
+.promo {
+    display: flex;
+    gap: 10px;
+    margin-top: 140px;
+}
+
+
+.promo__wrap-right {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.promo {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+}
+
+.card__item {
+    width: 350px;
+    padding: 15px;
+    background-color: rgb(244, 244, 245);
+    color: rgb(10, 10, 10);
+    box-shadow: 1px 2px 20px 5px #ccddc9;
+}
+
+.card__item {
+    display: inline-block;
+    text-align: center;
+}
+
+.card__item {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.card__icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.savings {
+    display: flex;
+    gap: 10px;
+}
+
+.savings__wrap-right {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.savings {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card__item {
+    text-align: center;
+}
+
+.card__item-link {
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    text-align: center;
+}
+
+.card__item-link:hover {
+    color: rgb(24, 116, 81);
+    text-decoration: underline;
+}
+
+
+.popup__title {
+    font-family: 'PlayfairDisplay', serif;
+    color: #012018;
+    font-size: 35px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 40px; /*отступ сверху*/
+    
+}
+
+.card__description {
+    margin-top: 15px; /*отступ сверху*/
+    color: #4a4a4a; /*цвет текста*/
+    text-align: center; /*выравнивание текста по центру*/
+    font-size: 16px; /*размер шрифта*/
+    position: absolute; /* позиционируется абсолютно*/
+    width: 250px; /*устанавливаем ширину для текста*/
+    background-color: #60ddb3; /*задаем фон*/
+    top: 50%; /* верхняя часть смещена на 50% высоты родителя*/
+    left: 50%; /*левая граница смещена на 50% ширины родителя*/
+    transform: translate(-50%, 50%);/* смещаем элемент относительно его текущего положения*/
+}
+
+.card__item {
+    width: 300px;/*устанавливаем ширину для каждого элемента*/
+    position: relative;/*задаем его позицию относительной, чтобы дочерние элементы могли позиционироваться относительно него*/
+}
+

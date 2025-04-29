@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cruinn';
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/Cruinn-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2');
+}

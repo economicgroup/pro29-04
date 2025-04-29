@@ -1,0 +1,40 @@
+.about {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    margin: 50px;
+}
+
+.when {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    margin: 50px;
+}
+
+.structure {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    margin: 50px;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.section__icon {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    gap: 0;
+}
+
+.forma {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    margin: 50px;
+}

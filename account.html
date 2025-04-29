@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бухгалтерский баланс</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <a class="header__logo-wrap" href="index.html">
+            <img class="header__logo" src="images/logotip.png" alt="логотип" width="100">
+            <h1 class="header__title">Balance sheet</h1>
+        </a>
+        <nav>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__item-link" href="account.html">Аккаунт</a> </li>
+                <li class="header__item"><a class="header__item-link" href="information.html">Информация</a> </li>
+                <li class="header__item"><a class="header__item-link" href="balance_sheet.html">Бух. баланс</a> </li>
+                <li class="header__item"><a class="header__item-link" href="vertical_analysis.html">Верт.анализ</a>
+                </li>
+                <li class="header__item"><a class="header__item-link" href="horizontal_analysis.html">Гор.анализ</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="header__button" href="account.html">Вход/Регистрация</a>
+    </header>
+    <main class="main container">
+        <section class="popup">
+            <h2 class="popup__title">Регистрация</h2>
+            <form id="popup-registration" class="popup__form form" action="/" method="post">
+                <input id="username" class="form__field" type="text" name="name" placeholder="Имя" required>
+                <input id="login" class="form__field" type="email" name="email" placeholder="Логин" required>
+                <div class="form__field-block">
+                    <input id="password" class="form__field" type="password" name="password" placeholder="Пароль"
+                        required>
+                    <span>Минимум 8 символов</span>
+                </div>
+                <p id="error-message" class="error-message"></p>
+                <input id="confirm-password" class="form__field" type="password" name="repeat-password"
+                    placeholder="Повторите пароль" required>
+
+
+                <button class="button button--accent" type="submit">Зарегистрироваться</button>
+                <button class="button" type="button">Отмена</button>
+
+            </form>
+        </section>
+        <section class="section popup">
+            <h2 class="popup__title">Войти</h2>
+            <form class="popup__form form" action="/" method="post">
+                <input class="form__field" type="email" name="email" placeholder="Логин" required>
+                <input class="form__field" type="password" name="password" placeholder="Пароль" required>
+
+                <button class="button button--accent" type="submit">Войти</button>
+                <button class="button" type="button">Отмена</button>
+
+            </form>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__developers">
+            <p class="footer__dev">Соколова Наталия, Симонова Ирина, Овечкина Полина ЭК-21</p>
+            <p class="footer__dev">Контактная информация +7123456789</p>
+            <p class="footer__dev">Почта: balancesheet@gmail.com</p>
+        </div>
+        <p class="footer__politics">
+            <a class="footer__politics-link" href="policy.html"> Политика конфиденциальности</a>
+        </p>
+
+    </footer>
+</body>
+
+</html>

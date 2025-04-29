@@ -1,0 +1,19 @@
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение стилей относящихся к header */
+@import "header.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+/* Подключение стилей относящихся к main */
+@import "main.css";
+/* Подключение стилей относящихся к typography */
+@import "buh.css";
+@import "information.css";
+@import "normalize.css";
+@import "typography.css";
+@import "universal.css";
+@import "adaptivity.css";
+@import "preloader.css";
+@import "slider.css";

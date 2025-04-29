@@ -1,0 +1,78 @@
+.tb {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tb__title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tb td,
+.tb th {
+    border: 1px solid #131212;
+    padding: 12px;
+    text-align: left;
+}
+
+.tb th {
+    background-color: #f2f2f2;
+}
+
+.tb tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tb tr:hover {
+    background-color: #ddd;
+}
+
+.form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.universal {
+    background-color: rgb(245, 248, 250);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+}
+
+.form__field {
+    border: 1px solid #487e70;
+    border-radius: 16px;
+}

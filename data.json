@@ -1,0 +1,22 @@
+[
+    {
+        "link": "account.html",
+        "title": "Аккаунт"
+    },
+    {
+        "link": "information.html",
+        "title": "Информация"
+    },
+    {
+        "link": "balance_sheet.html",
+        "title": "Бух. баланс"
+    },
+    {
+        "link": "vertical_analysis.html",
+        "title": "Верт.анализ"
+    },
+    {
+        "link": "horizontal_analysis.html",
+        "title": "Гор.анализ"
+    }
+]

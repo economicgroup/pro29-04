@@ -1,0 +1,35 @@
+.footer {
+    background-color: #eeece8;
+}
+
+.footer__developers {
+    text-align: center;
+}
+
+.footer__politics {
+    text-align: center;
+}
+
+.footer__politics-link {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+.footer__politics-link:hover {
+    color: rgb(45, 105, 70);
+    text-decoration: underline;
+}
+
+.scroll-up {
+    right: 40px;
+
+    width: 50px;
+    height: 50px;
+}
+
+.button {
+    min-height: 50px;
+
+    font-size: 16px;
+    line-height: 24px;
+}

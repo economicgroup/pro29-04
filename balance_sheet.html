@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бухгалтерский баланс</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/buh.css">
+    <link rel="stylesheet" href="styles/universal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header container">
+        <a class="header__logo-wrap" href="index.html">
+            <img class="header__logo" src="images/logotip.png" alt="логотип" width="100">
+            <h1 class="header__title">Balance sheet</h1>
+        </a>
+        <nav>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__item-link" href="account.html">Аккаунт</a> </li>
+                <li class="header__item"><a class="header__item-link" href="information.html">Информация</a> </li>
+                <li class="header__item"><a class="header__item-link" href="balance_sheet.html">Бух. баланс</a> </li>
+                <li class="header__item"><a class="header__item-link" href="vertical_analysis.html">Верт.анализ</a>
+                </li>
+                <li class="header__item"><a class="header__item-link" href="horizontal_analysis.html">Гор.анализ</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="header__button" href="account.html">Вход/Регистрация</a>
+    </header>
+    <main>
+        <section class="section universal">
+
+            <h2 class="section__title">Бухгалтерский баланс</h2>
+            <p class="section__discription">Бухгалтерский баланс — форма №1 бухгалтерской отчётности. Её обязаны
+                составлять и ежегодно сдавать в налоговую все компании, зарегистрированные на территории РФ, включая
+                малый бизнес.
+                С помощью бухгалтерского баланса анализируют результаты работы компании и её финансовое состояние.
+                Поэтому, кроме налоговой, этот документ могут запросить собственники бизнеса, инвесторы, банки или
+                контрагенты. </p>
+        </section>
+        <section class="section card card--slider swiper">
+            <h2 class="section__title">Разделы бухгалтерского баланса</h2>
+            <div class="card__list card__list--slider swiper-wrapper">
+                <a class="card__item swiper-slide">
+                    <h3 class="card__title">Внеоборотные активы</h3>
+                </a>
+                <a class="card__item swiper-slide">
+                    <h3 class="card__title">Оборотные активы</h3>
+                </a>
+                <a class="card__item swiper-slide">
+                    <h3 class="card__title">Капитал</h3>
+                </a>
+                <a class="card__item swiper-slide">
+                    <h3 class="card__title">Долгосрочные обязательства</h3>
+                </a>
+                <a class="card__item swiper-slide">
+                    <h3 class="card__title">Краткосрочные обязательства</h3>
+                </a>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </section>
+        <section class="section about">
+            <h3 class="section__title">Описание разделов бухгалтерского баланса</h2>
+                <p class="section__discription"> Активы показывают, каким имуществом владеет компания, и включают в себя
+                    два раздела:
+                    Внеоборотные активы — те, которые используются более 1 года: оборудование, здания, нематериальные
+                    активы, долгосрочные вложения и т. п..
+                    Оборотные активы — активы со сроком использования менее 1 года: сырьё, материалы, краткосрочная
+                    дебиторская задолженность, денежные средства — расчётные и валютные счета, НДС по приобретённым
+                    ценностям и т. п.. </p>
+                <p class="section__discription">
+                    Пассивы раскрывают источники формирования имущества организации, указанного в активах, и состоят из
+                    трёх разделов:
+                    Капитал и резервы — собственные средства владельцев компании: уставный и резервный капитал,
+                    нераспределённая прибыль.
+                    Долгосрочные обязательства — займы, кредиты и прочая задолженность со сроком погашения более года.
+                    Краткосрочные обязательства — текущая задолженность перед работниками, поставщиками и иные долги,
+                    подлежащие выплате в течение года, а также доходы будущих периодов.
+                    Главный принцип бухгалтерского баланса — валюта должна сойтись, то есть стоимость активов
+                    обязательно равна стоимости пассивов. </p>
+        </section>
+        <section class="section universal">
+            <h3 class="section__title">Пример формы составления</h3>
+            <div class="images-container">
+                <img class="section__icon" src="images/aktiv.webp" alt="Актив" width="800" height="350">
+                <img class="section__icon" src="images/passiv.webp" alt="ассив" width="800" height="350">
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__developers">
+            <p class="footer__dev">Соколова Наталия, Симонова Ирина, Овечкина Полина ЭК-21</p>
+            <p class="footer__dev">Контактная информация +7123456789</p>
+            <p class="footer__dev">Почта: balancesheet@gmail.com</p>
+        </div>
+        <p class="footer__politics">
+            <a class="footer__politics-link" href="policy.html"> Политика конфиденциальности</a>
+        </p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
